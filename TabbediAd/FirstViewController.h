@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface FirstViewController : UIViewController
+#import <iAd/iAd.h>
+@interface FirstViewController : UIViewController <ADBannerViewDelegate>
+{
+    ADBannerView *adView;
+    BOOL bannerIsVisible;
+}
+@property (strong, nonatomic) IBOutlet UIImageView *imageFirst;
 
 @end

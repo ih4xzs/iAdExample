@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIImageView *imageOne;
+@property (strong, nonatomic) IBOutlet UIImageView *imageTwo;
+@property (strong, nonatomic) IBOutlet UIImageView *imageThree;
+- (IBAction)refreshAd:(id)sender;
 
 @end
