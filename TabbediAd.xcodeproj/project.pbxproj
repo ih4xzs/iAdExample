@@ -29,6 +29,8 @@
 		398CA16018D38B3400182EBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398CA12D18D38B3400182EBB /* Foundation.framework */; };
 		398CA16818D38B3400182EBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 398CA16618D38B3400182EBB /* InfoPlist.strings */; };
 		398CA16B18D38B3400182EBB /* TabbediAdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 398CA16A18D38B3400182EBB /* TabbediAdTests.m */; };
+		398CA17518D38B4900182EBB /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398CA17418D38B4900182EBB /* iAd.framework */; };
+		398CA17718D3983700182EBB /* mc.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 398CA17618D3983700182EBB /* mc.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		398CA16718D38B3400182EBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		398CA16918D38B3400182EBB /* TabbediAdTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbediAdTests.h; sourceTree = "<group>"; };
 		398CA16A18D38B3400182EBB /* TabbediAdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbediAdTests.m; sourceTree = "<group>"; };
+		398CA17418D38B4900182EBB /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		398CA17618D3983700182EBB /* mc.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mc.jpeg; path = ../../mc.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398CA17518D38B4900182EBB /* iAd.framework in Frameworks */,
 				398CA12C18D38B3400182EBB /* UIKit.framework in Frameworks */,
 				398CA12E18D38B3400182EBB /* Foundation.framework in Frameworks */,
 				398CA13018D38B3400182EBB /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +105,8 @@
 		398CA11F18D38B3400182EBB = {
 			isa = PBXGroup;
 			children = (
+				398CA17618D3983700182EBB /* mc.jpeg */,
+				398CA17418D38B4900182EBB /* iAd.framework */,
 				398CA13118D38B3400182EBB /* TabbediAd */,
 				398CA16318D38B3400182EBB /* TabbediAdTests */,
 				398CA12A18D38B3400182EBB /* Frameworks */,
@@ -261,6 +268,7 @@
 				398CA14F18D38B3400182EBB /* first@2x.png in Resources */,
 				398CA15418D38B3400182EBB /* second.png in Resources */,
 				398CA15618D38B3400182EBB /* second@2x.png in Resources */,
+				398CA17718D3983700182EBB /* mc.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
