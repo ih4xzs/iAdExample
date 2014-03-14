@@ -74,7 +74,7 @@
 		398CA16918D38B3400182EBB /* TabbediAdTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbediAdTests.h; sourceTree = "<group>"; };
 		398CA16A18D38B3400182EBB /* TabbediAdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbediAdTests.m; sourceTree = "<group>"; };
 		398CA17418D38B4900182EBB /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		398CA17618D3983700182EBB /* mc.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mc.jpeg; path = ../../mc.jpeg; sourceTree = "<group>"; };
+		398CA17618D3983700182EBB /* mc.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mc.jpeg; path = ../../../mc.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,6 @@
 		398CA11F18D38B3400182EBB = {
 			isa = PBXGroup;
 			children = (
-				398CA17618D3983700182EBB /* mc.jpeg */,
 				398CA17418D38B4900182EBB /* iAd.framework */,
 				398CA13118D38B3400182EBB /* TabbediAd */,
 				398CA16318D38B3400182EBB /* TabbediAdTests */,
@@ -137,6 +136,7 @@
 		398CA13118D38B3400182EBB /* TabbediAd */ = {
 			isa = PBXGroup;
 			children = (
+				398CA17618D3983700182EBB /* mc.jpeg */,
 				398CA13A18D38B3400182EBB /* AppDelegate.h */,
 				398CA13B18D38B3400182EBB /* AppDelegate.m */,
 				398CA14318D38B3400182EBB /* MainStoryboard_iPhone.storyboard */,
@@ -497,6 +497,7 @@
 				398CA17018D38B3400182EBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		398CA17118D38B3400182EBB /* Build configuration list for PBXNativeTarget "TabbediAdTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +506,7 @@
 				398CA17318D38B3400182EBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
